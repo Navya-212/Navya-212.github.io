@@ -1,0 +1,61 @@
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    height: 90%;
+    margin: 1%;
+    padding: 1%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.certificates {
+    margin: 2%;
+}
+
+.certificates img {
+    height: 300px;
+    width: 300px;
+}
+
+.certificates img:hover {
+    transform: scale(2);
+}
+
+.certificates a {
+    margin: 5% 5%;
+}
+
+.move a {
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+    left: 40%;
+    text-decoration: none;
+}
+.move a:hover{
+    background: transparent;
+    border-color: #fd4766;
+    color: #fd4766;
+}
+h1{
+    color: teal;
+    font-size: 36px;
+}
